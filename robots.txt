@@ -1,0 +1,18 @@
+# Allow all user agents full access
+User-agent: *
+
+# Disallow access to sensitive PHP scripts
+Disallow: /db.php
+Disallow: /register.php
+Disallow: /login.php
+Disallow: /add_task.php
+Disallow: /update_task.php
+Disallow: /delete_task.php
+Disallow: /logout.php
+Disallow: /admin.php
+
+# Allow access to the main index page
+Allow: /index.php
+
+# Sitemap (optional)
+Sitemap: /sitemap.xml
